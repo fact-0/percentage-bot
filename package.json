@@ -1,0 +1,26 @@
+{
+  "name": "percentage-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --dev",
+    "start": "pm2 start ecosystem.config.js --only percentage-bot --env production",
+    "del": "pm2 del all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffwe/percentage-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ffwe/percentage-bot/issues"
+  },
+  "homepage": "https://github.com/ffwe/percentage-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
+}
